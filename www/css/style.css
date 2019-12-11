@@ -1,0 +1,17 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; }
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  flex: 1; }
+
+#index {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #index .start {
+    font-size: 2rem; }
