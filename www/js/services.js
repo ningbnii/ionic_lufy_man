@@ -34,32 +34,44 @@ angular.module('starter.services', [])
   function Background(img, STAGE_STEP) {
     base(this, LSprite, []);
     var self = this;
+    var clientHeight = document.body.clientHeight;
+    var clientWidth = document.body.clientWidth;
+
+    // 移动速度
     self.STAGE_STEP = STAGE_STEP;
     self.bitmapData = new LBitmapData(img);
-    self.bitmap1 = new LBitmap(self.bitmapData);
-    self.addChild(self.bitmap1);
-    self.bitmap2 = new LBitmap(self.bitmapData);
-    self.bitmap2.y = self.bitmap1.getHeight();
-    self.addChild(self.bitmap2);
-    self.bitmap3 = new LBitmap(self.bitmapData);
-    self.bitmap3.y = self.bitmap1.getHeight() * 2;
-    self.addChild(self.bitmap3);
-    self.bitmap4 = new LBitmap(self.bitmapData);
-    self.bitmap4.y = self.bitmap1.getHeight * 3;
-    self.addChild(self.bitmap4);
+    self.imgHeight = self.bitmapData.height;
+    self.imgWidth = self.bitmapData.width;
+
+    // 根据屏幕分辨率和图片大小，计算一下需要多少个图片能够铺满整个屏幕
+    // 横向需要几个
+    self.xNum = Math.ceil(clientWidth / self.imgWidth);
+    // 纵向需要几个
+    self.yNum = Math.ceil(clientHeight / self.imgHeight) + 1;
+    // 保存横向的bitmap
+    self.bitmapArr = [];
+
+    for (var i = 0; i < self.yNum; i++) {
+      for (var j = 0; j < self.xNum; j++) {
+        var bitmap = new LBitmap(self.bitmapData);
+        bitmap.y = self.imgHeight * i;
+        bitmap.x = self.imgWidth * j;
+        self.addChild(bitmap);
+        self.bitmapArr.push(bitmap)
+      }
+    }
+
   }
-  Background.prototype = {
-    run: function() {
-      var self = this;
-      self.bitmap1.y -= self.STAGE_STEP;
-      self.bitmap2.y -= self.STAGE_STEP;
-      self.bitmap3.y -= self.STAGE_STEP;
-      self.bitmap4.y -= self.STAGE_STEP;
-      if (self.bitmap1.y < -self.bitmap1.getHeight()) {
-        self.bitmap1.y = self.bitmap2.y;
-        self.bitmap2.y = self.bitmap1.y + self.bitmap1.getHeight();
-        self.bitmap3.y = self.bitmap1.y + self.bitmap1.getHeight() * 2;
-        self.bitmap4.y = self.bitmap1.y + self.bitmap1.getHeight() * 3;
+  Background.prototype.run = function() {
+    var self = this;
+    // 移动背景
+    for (var i = 0; i < self.bitmapArr.length; i++) {
+      self.bitmapArr[i].y -= self.STAGE_STEP;
+    }
+    // 当第一个移出外面，并且超过一个图片高度的时候，将所有图片y重置
+    if (self.bitmapArr[0].y < -self.imgHeight) {
+      for (var i = 0; i < self.bitmapArr.length; i++) {
+        self.bitmapArr[i].y += self.imgHeight;
       }
     }
   };

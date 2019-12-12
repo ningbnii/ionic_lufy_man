@@ -41,10 +41,10 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         templateUrl: 'templates/index.html',
         controller: 'IndexCtrl'
       })
-      .state('main', {
-        url: '/main',
-        templateUrl: 'templates/main.html',
-        controller: 'MainCtrl'
+      .state('home', {
+        url: '/home',
+        templateUrl: 'templates/home.html',
+        controller: 'HomeCtrl'
       })
 
     // if none of the above states are matched, use this as the fallback

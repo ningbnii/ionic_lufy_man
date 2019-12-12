@@ -8,6 +8,12 @@ canvas {
   height: 100vh;
   flex: 1; }
 
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
 #index {
   height: 100%;
   display: flex;

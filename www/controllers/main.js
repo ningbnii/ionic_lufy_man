@@ -1,15 +1,17 @@
-.controller('MainCtrl', function($scope, $state, Background) {
+.controller('HomeCtrl', function($scope, $state, Background, $timeout) {
   var w = document.body.clientWidth;
   var h = document.body.clientHeight;
 
-  LInit(requestAnimationFrame, 'main', w, h, main);
+  LInit(requestAnimationFrame, 'homeCanvas', w, h, main);
 
   var backgroundLayer, background;
+  $scope.stop = false;
   var STAGE_STEP = 1;
   var imglist = {};
-  var imgData = [
-    { name: 'back', path: 'img/back.png' }
-  ];
+  var imgData = [{
+    name: 'back',
+    path: 'img/back.png'
+  }];
 
 
   function main(event) {
@@ -36,7 +38,20 @@
   }
 
   function onframe() {
-    background.run();
+    if (!$scope.stop) {
+      background.run();
+    }
+  }
+
+  $timeout(function() {
+    $scope.stop = true;
+  }, 2000)
+
+  $scope.restart = function() {
+    $scope.stop = false;
+    $timeout(function() {
+      $scope.stop = true;
+    }, 2000)
   }
 
 
@@ -45,10 +60,5 @@
     addChild(backgroundLayer);
   }
 
-
-  $scope.$on('$ionicView.leave', function() {
-    backgroundLayer.removeAllChild();
-    backgroundLayer.die();
-  })
 
 })
