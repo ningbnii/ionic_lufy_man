@@ -76,9 +76,7 @@ angular.module('starter.services', [])
     }
   };
 
-  return {
-    Background
-  }
+  return Background
 })
 .factory('Floor', function($http, apiUrl, $rootScope, $localstorage) {
   function Floor(img, STAGE_STEP) {
@@ -103,18 +101,6 @@ angular.module('starter.services', [])
 
   Floor.prototype.hitRun = function() {}
 
-  function Floor01(img, STAGE_STEP) {
-    base(this, Floor(img, STAGE_STEP), []);
-  }
 
-  Floor01.prototype.setView = function() {
-    var self = this;
-    self.bitmap = new LBitmap(new LBitmapData(self.img));
-    self.addChild(self.bitmap);
-  }
-
-  return {
-    Floor,
-    Floor01
-  }
+  return Floor;
 })

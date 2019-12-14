@@ -21,18 +21,6 @@
 
   Floor.prototype.hitRun = function() {}
 
-  function Floor01(img, STAGE_STEP) {
-    base(this, Floor(img, STAGE_STEP), []);
-  }
 
-  Floor01.prototype.setView = function() {
-    var self = this;
-    self.bitmap = new LBitmap(new LBitmapData(self.img));
-    self.addChild(self.bitmap);
-  }
-
-  return {
-    Floor,
-    Floor01
-  }
+  return Floor;
 })

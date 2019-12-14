@@ -34,7 +34,7 @@
   }
 
   function gameStart() {
-    background = new Background.Background(imglist['back'], STAGE_STEP);
+    background = new Background(imglist['back'], STAGE_STEP);
     backgroundLayer.addChild(background);
 
     stageInit();
@@ -63,7 +63,7 @@
 
   function addStage() {
     var mstage;
-    mstage = new Floor.Floor01(imglist['floor0'], STAGE_STEP);
+    mstage = new Floor(imglist['floor0'], STAGE_STEP);
     mstage.y = 580;
     mstage.x = Math.random() * 280;
     stageLayer.addChild(mstage);
@@ -71,13 +71,13 @@
 
   $timeout(function() {
     $scope.stop = true;
-  }, 20000)
+  }, 5000)
 
   $scope.restart = function() {
     $scope.stop = false;
     $timeout(function() {
       $scope.stop = true;
-    }, 20000)
+    }, 5000)
   }
 
 

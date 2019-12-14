@@ -44,7 +44,5 @@
     }
   };
 
-  return {
-    Background
-  }
+  return Background
 })
