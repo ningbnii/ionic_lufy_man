@@ -2,120 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a19624f1-fb6b-4960-a41f-6d8774a85e2d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.bowerrc" beforeDir="false" afterPath="$PROJECT_DIR$/.bowerrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lufy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lufy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/after_prepare/010_add_platform_class.js" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/after_prepare/010_add_platform_class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/after_prepare/uglify.js" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/after_prepare/uglify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/uglify-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/uglify-config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ionic.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/ionic.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ionic.project" beforeDir="false" afterPath="$PROJECT_DIR$/ionic.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/ionic.app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/ionic.app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/controllers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/controllers/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/controllers/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/css/ionic.app.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/ionic.app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/css/ionic.app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/ionic.app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/img/back.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/img/back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/img/floor0.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/img/floor0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/img/floor1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/img/floor1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/img/floor2.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/img/floor2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/img/floor3.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/img/floor3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/img/hero - コピー.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/img/hero - コピー.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/img/hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/img/hero.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/img/mai.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/img/mai.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/img/ue.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/img/ue.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/img/wheel.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/img/wheel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/js/controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/css/ionic.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/css/ionic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/css/ionic.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/css/ionic.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular-ui/angular-ui-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular-ui/angular-ui-router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-animate.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-animate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-animate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-animate.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-resource.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-resource.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-resource.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-resource.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-sanitize.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-sanitize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-sanitize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-sanitize.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_action-sheet.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_action-sheet.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_animations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_backdrop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_backdrop.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_badge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_bar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_button-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_button-bar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_checkbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_items.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_items.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_loading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_loading.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_platform.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_platform.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_popover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_popup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_progress.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_radio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_radio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_range.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_range.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_refresher.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_refresher.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_scaffolding.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_scaffolding.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_select.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_slide-box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_slide-box.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_slides.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_slides.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_spinner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_spinner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_tabs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_toggle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_toggle.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_transitions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_type.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_util.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_util.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/ionic.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-font.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/ionicons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/ionicons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/ionic/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/ionic/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/lufylegend-1.10.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/lufylegend-1.10.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/lufylegend-2.0.0.beta4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/lufylegend-2.0.0.beta4.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/lufylegend-2.0.0.beta4.simple.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/lufylegend-2.0.0.beta4.simple.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lib/lufylegend-2.0.0.beta4.simple.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/lib/lufylegend-2.0.0.beta4.simple.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/services/background.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/services/floor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/services/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +78,7 @@
       <workItem from="1578489025553" duration="7000" />
       <workItem from="1582505982272" duration="2228000" />
       <workItem from="1583578305243" duration="31000" />
-      <workItem from="1583578840986" duration="26058000" />
+      <workItem from="1583578840986" duration="26983000" />
     </task>
     <servers />
   </component>

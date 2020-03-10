@@ -69,15 +69,15 @@ controller('HomeCtrl', function ($scope, $state, $timeout) {
 		
 		stageInit();
 		backgroundLayer.addEventListener(LEvent.ENTER_FRAME, onframe);
-		backgroundLayer.addEventListener(LMouseEvent.MOUSE_DOWN, mousedown);
-		backgroundLayer.addEventListener(LMouseEvent.MOUSE_UP, mouseup);
-		// pc端通过键盘控制移动
-		
-		if (!LGlobal.canTouch) {
-			
-			LEvent.addEventListener(window, LKeyboardEvent.KEY_DOWN, down);
-			LEvent.addEventListener(window, LKeyboardEvent.KEY_UP, up);
-		}
+		// backgroundLayer.addEventListener(LMouseEvent.MOUSE_DOWN, mousedown);
+		// backgroundLayer.addEventListener(LMouseEvent.MOUSE_UP, mouseup);
+		// // pc端通过键盘控制移动
+		//
+		// if (!LGlobal.canTouch) {
+		//
+		// 	LEvent.addEventListener(window, LKeyboardEvent.KEY_DOWN, down);
+		// 	LEvent.addEventListener(window, LKeyboardEvent.KEY_UP, up);
+		// }
 		
 	}
 	
@@ -224,11 +224,11 @@ controller('HomeCtrl', function ($scope, $state, $timeout) {
 	}
 	
 	$scope.restart = function () {
+		backgroundLayer.removeAllChild();
+		backgroundLayer.removeAllEventListener();
+		gameStart();
 		$scope.stop = false;
-		$timeout(function () {
-			$scope.stop = true;
-		}, 5000)
-	}
+	};
 	
 	
 	function initBackgroundLayer() {
