@@ -3,6 +3,17 @@
   	<div id="homeCanvas"></div>
   	<div id="home">
 	    <div class="content">
+            <div class="control">
+
+                <button class="button button-light" on-touch="moveLeft()" on-release="moveStop()">
+                    <i class="icon ion-arrow-left-a"></i>
+                </button>
+                <button class="button button-light" on-touch="moveRight()" on-release="moveStop()">
+                    <i class="icon ion-arrow-right-a"></i>
+                </button>
+            </div>
+
+
 	    	<button ng-show="stop" class="button" ng-click="restart()">重新开始</button>
 	    </div>
   	</div>

@@ -12,10 +12,11 @@ var order = require('gulp-order');
 var paths = {
   sass: ['./scss/*.scss'],
   controllers: ['www/controllers/*.js'],
-  services: ['www/services/*.js']
+  services: ['www/services/*.js'],
+  common: ['www/common/*.js']
 };
 
-gulp.task('default', ['watch', 'sass', 'concatControllers', 'concatServices']);
+gulp.task('default', ['watch', 'sass', 'concatControllers', 'concatServices', 'concatCommon']);
 
 gulp.task('sass', function(done) {
   gulp.src('./scss/*.scss')
@@ -25,7 +26,9 @@ gulp.task('sass', function(done) {
     .pipe(minifyCss({
       keepSpecialComments: 0
     }))
-    .pipe(rename({ extname: '.min.css' }))
+    .pipe(rename({
+      extname: '.min.css'
+    }))
     .pipe(gulp.dest('./www/css/'))
     .on('end', done);
 });
@@ -34,7 +37,9 @@ gulp.task('concatControllers', function() {
   gulp.src('www/controllers/*.js')
     .pipe(plumber())
     //.pipe(stripDebug())
-    .pipe(order(['www/controllers/index.js', 'www/controllers/*.js'], { base: '.' }))
+    .pipe(order(['www/controllers/index.js', 'www/controllers/*.js'], {
+      base: '.'
+    }))
     .pipe(concat('controllers.js'))
     .pipe(gulp.dest('./www/js/'))
 });
@@ -43,8 +48,21 @@ gulp.task('concatServices', function() {
   gulp.src('www/services/*.js')
     .pipe(plumber())
     //.pipe(stripDebug())
-    .pipe(order(['www/services/index.js', 'www/services/*.js'], { base: '.' }))
+    .pipe(order(['www/services/index.js', 'www/services/*.js'], {
+      base: '.'
+    }))
     .pipe(concat('services.js'))
+    .pipe(gulp.dest('./www/js/'))
+});
+
+gulp.task('concatCommon', function() {
+  gulp.src('www/common/*.js')
+    .pipe(plumber())
+    //.pipe(stripDebug())
+    .pipe(order(['www/services/*.js'], {
+      base: '.'
+    }))
+    .pipe(concat('common.js'))
     .pipe(gulp.dest('./www/js/'))
 });
 
@@ -52,6 +70,7 @@ gulp.task('watch', ['sass'], function() {
   gulp.watch(paths.sass, ['sass']);
   gulp.watch(paths.controllers, ['concatControllers']);
   gulp.watch(paths.services, ['concatServices']);
+  gulp.watch(paths.common, ['concatCommon']);
 });
 
 gulp.task('install', ['git-check'], function() {

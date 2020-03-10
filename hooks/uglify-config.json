@@ -4,33 +4,18 @@
     "foldersToProcess": [
         "js",
         "css",
-        "img",
         "build"
     ],
     "uglifyJsOptions": {
         "compress": {
             "drop_console": true
         },
-        "fromString": true,
-        "mangle": true
+        "mangle": false,
+        "output": {
+            "code": true
+        }
     },
     "cleanCssOptions": {
-        "noAdvanced": true,
-        "keepSpecialComments": 0
-    },
-    "imageminOptions": {
-        "jpeg": {
-            "progressive": true,
-            "arithmetic": false
-        },
-        "png": {
-            "optimizationLevel": 2
-        },
-        "gif": {
-            "interlaced": false
-        },
-        "svg": {
-            "pretty": false
-        }
+        "specialComments": "all"
     }
 }
