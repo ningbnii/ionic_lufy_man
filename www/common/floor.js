@@ -30,6 +30,13 @@ Floor.prototype.onframe = function() {
 	// 当主角落在地板上的时候，让他和地板一块移动
 	if (self.child) {
 		self.child.y -= self.STAGE_STEP;
+		
+		if(self.child.y<10){
+			// 碰到了顶部的刺
+			self.hp --;
+			self.child.y += 20;
+			self.child = null;
+		}
 	}
 };
 

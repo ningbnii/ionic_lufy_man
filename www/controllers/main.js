@@ -59,11 +59,14 @@ controller('HomeCtrl', function ($scope, $state, $timeout) {
 		// 添加背景
 		background = new Background($scope.imglist['back'], $scope.STAGE_STEP);
 		backgroundLayer.addChild(background);
+		// 顶部的刺
+		var top = new Top($scope.imglist['floor2']);
+		backgroundLayer.addChild(top);
 		
 		// 添加英雄
 		hero = new Chara($scope.imglist['hero'], $scope.g, $scope.MOVE_STEP);
 		hero.x = w / 2 - hero.getWidth() / 2;
-		hero.y = 0;
+		hero.y = 10;
 		hero.hp = hero.maxHp;
 		backgroundLayer.addChild(hero);
 		
@@ -187,16 +190,17 @@ controller('HomeCtrl', function ($scope, $state, $timeout) {
 	function stageInit() {
 		stageLayer = new LSprite();
 		backgroundLayer.addChild(stageLayer);
-		addStage(w / 2 - 50, h / 3);
+		// 将第一个地板固定为木地板
+		addStage(w / 2 - 50, h / 3,0);
 		for (var i = h / 3 + $scope.stageSpace; i < h + $scope.stageSpace; i += $scope.stageSpace) {
 			addStage(Math.random() * (w - 100), i);
 		}
 		$scope.initStageLastY = i - $scope.stageSpace;
 	}
 	
-	function addStage(x, y) {
+	function addStage(x, y,index) {
 		var mstage;
-		var index = Math.random()* 6;
+		var index = index !== undefined ? index : Math.random()* 6;
 		if(index<1){
 			mstage = new Floor01($scope.imglist['floor0'], $scope.STAGE_STEP);
 		}else if(index < 2){

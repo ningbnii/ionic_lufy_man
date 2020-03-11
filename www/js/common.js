@@ -114,6 +114,14 @@ Chara.prototype.onframe = function () {
 	// 当主角落到屏幕外面的时候，将血量置为0
 	if (self.y > self.clientHeight) {
 		self.hp = 0;
+	}else if(self.y<10){
+		// 碰到了顶部的刺
+		self.hp --;
+		self.y += 20;
+		// 如果正在弹簧地板上，可能正在向上运动，速度为负数，将速度设置为0，以免重复减血
+		if(self.speed<0){
+			self.speed = 0;
+		}
 	}
 	// 控制主角移动
 	if (self.moveType == 'left') {
@@ -184,6 +192,13 @@ Floor.prototype.onframe = function() {
 	// 当主角落在地板上的时候，让他和地板一块移动
 	if (self.child) {
 		self.child.y -= self.STAGE_STEP;
+		
+		if(self.child.y<10){
+			// 碰到了顶部的刺
+			self.hp --;
+			self.child.y += 20;
+			self.child = null;
+		}
 	}
 };
 
@@ -357,3 +372,20 @@ Floor06.prototype.hitRun = function () {
 
 
 
+
+function Top(img) {
+	base(this,LSprite,[]);
+	var s = this;
+	var w = document.body.clientWidth;
+	var bitmap = new LBitmap(new LBitmapData(img));
+	bitmap.rotate = 180;
+	s.addChild(bitmap);
+	var bitmapWidth = bitmap.getWidth();
+	var num = Math.ceil(w/bitmapWidth);
+	for (var i =1;i<num;i++){
+		var newBitmap = bitmap.clone();
+		newBitmap.x = bitmapWidth*i;
+		s.addChild(newBitmap);
+	}
+	
+}
